@@ -1,7 +1,7 @@
 *** Test Cases ***
 IfElseValidation
 
-    Run Keyword If  100%2 == 0   Keyword 1   ELSE    Keyword 2
+    Run Keyword If  103%2 == 0   Keyword 1   ELSE    Keyword 2
 
 
 *** Keywords ***
@@ -10,4 +10,7 @@ Keyword 1
 
 Keyword 2
     Log to console      This is a Odd No
+
+        #Run Keyword If  100%2 == 0   Keyword 1   ELSE    Keyword 2
+
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20231111 16:24:41.849" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20231125 21:46:43.530" rpa="false" schemaversion="3">
 <suite id="s1" name="IfElse" source="C:\Users\SHIV-SHAMBHU\PycharmProjects\RobotF\Automation\IfElse.robot">
 <test id="s1-t1" name="IfElseValidation" line="10">
 <kw name="BrowserOpen">
@@ -7,86 +7,86 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231111 16:24:42.271" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/v1/'.</msg>
-<status status="PASS" starttime="20231111 16:24:42.271" endtime="20231111 16:24:48.582"/>
+<msg timestamp="20231125 21:46:43.836" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/v1/'.</msg>
+<status status="PASS" starttime="20231125 21:46:43.836" endtime="20231125 21:46:47.098"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:24:53.583" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20231111 16:24:48.582" endtime="20231111 16:24:53.583"/>
+<msg timestamp="20231125 21:46:52.100" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20231125 21:46:47.098" endtime="20231125 21:46:52.100"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231111 16:24:53.583" endtime="20231111 16:24:53.708"/>
+<status status="PASS" starttime="20231125 21:46:52.100" endtime="20231125 21:46:52.216"/>
 </kw>
-<status status="PASS" starttime="20231111 16:24:42.271" endtime="20231111 16:24:53.708"/>
+<status status="PASS" starttime="20231125 21:46:43.836" endtime="20231125 21:46:52.216"/>
 </kw>
 <kw name="DataFilling">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name:user-name</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231111 16:24:53.708" level="INFO">Typing text 'standard_user' into text field 'name:user-name'.</msg>
-<status status="PASS" starttime="20231111 16:24:53.708" endtime="20231111 16:24:53.861"/>
+<msg timestamp="20231125 21:46:52.216" level="INFO">Typing text 'standard_user' into text field 'name:user-name'.</msg>
+<status status="PASS" starttime="20231125 21:46:52.216" endtime="20231125 21:46:52.338"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:24:55.862" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20231111 16:24:53.861" endtime="20231111 16:24:55.862"/>
+<msg timestamp="20231125 21:46:54.338" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231125 21:46:52.338" endtime="20231125 21:46:54.338"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name:password</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231111 16:24:55.862" level="INFO">Typing text 'secret_sauce' into text field 'name:password'.</msg>
-<status status="PASS" starttime="20231111 16:24:55.862" endtime="20231111 16:24:55.979"/>
+<msg timestamp="20231125 21:46:54.338" level="INFO">Typing text 'secret_sauce' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231125 21:46:54.338" endtime="20231125 21:46:54.440"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:24:57.979" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20231111 16:24:55.979" endtime="20231111 16:24:57.979"/>
+<msg timestamp="20231125 21:46:56.440" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231125 21:46:54.440" endtime="20231125 21:46:56.440"/>
 </kw>
-<status status="PASS" starttime="20231111 16:24:53.708" endtime="20231111 16:24:57.979"/>
+<status status="PASS" starttime="20231125 21:46:52.216" endtime="20231125 21:46:56.440"/>
 </kw>
 <kw name="CLicking">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>id:login-button</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231111 16:24:57.979" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231111 16:24:57.979" endtime="20231111 16:25:03.361"/>
+<msg timestamp="20231125 21:46:56.440" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20231125 21:46:56.440" endtime="20231125 21:46:57.451"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:25:05.362" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20231111 16:25:03.361" endtime="20231111 16:25:05.362"/>
+<msg timestamp="20231125 21:46:59.451" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231125 21:46:57.451" endtime="20231125 21:46:59.451"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://button[contains(text(),'Open Menu')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231111 16:25:05.362" level="INFO">Clicking element 'xpath://button[contains(text(),'Open Menu')]'.</msg>
-<status status="PASS" starttime="20231111 16:25:05.362" endtime="20231111 16:25:05.431"/>
+<msg timestamp="20231125 21:46:59.451" level="INFO">Clicking element 'xpath://button[contains(text(),'Open Menu')]'.</msg>
+<status status="PASS" starttime="20231125 21:46:59.451" endtime="20231125 21:46:59.534"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:25:10.433" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20231111 16:25:05.431" endtime="20231111 16:25:10.433"/>
+<msg timestamp="20231125 21:47:04.534" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20231125 21:46:59.534" endtime="20231125 21:47:04.534"/>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <var>${list_of_items}</var>
 <arg>xpath://div[@class='inventory_list']/div</arg>
 <doc>Returns the number of elements matching ``locator``.</doc>
-<msg timestamp="20231111 16:25:10.475" level="INFO">${list_of_items} = 6</msg>
-<status status="PASS" starttime="20231111 16:25:10.433" endtime="20231111 16:25:10.475"/>
+<msg timestamp="20231125 21:47:04.534" level="INFO">${list_of_items} = 6</msg>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.534"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${list_of_items}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20231111 16:25:10.475" endtime="20231111 16:25:10.475"/>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.534"/>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <arg>${list_of_items} == 10</arg>
@@ -101,42 +101,42 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>NotFOund</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20231111 16:25:10.483" endtime="20231111 16:25:10.483"/>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.534"/>
 </kw>
-<status status="PASS" starttime="20231111 16:25:10.475" endtime="20231111 16:25:10.483"/>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.534"/>
 </kw>
-<status status="PASS" starttime="20231111 16:25:10.475" endtime="20231111 16:25:10.483"/>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.534"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://a[contains(text(),'Logout')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231111 16:25:10.487" level="INFO">Clicking element 'xpath://a[contains(text(),'Logout')]'.</msg>
-<status status="PASS" starttime="20231111 16:25:10.483" endtime="20231111 16:25:12.435"/>
+<msg timestamp="20231125 21:47:04.534" level="INFO">Clicking element 'xpath://a[contains(text(),'Logout')]'.</msg>
+<status status="PASS" starttime="20231125 21:47:04.534" endtime="20231125 21:47:04.865"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>4</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20231111 16:25:16.436" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20231111 16:25:12.435" endtime="20231111 16:25:16.436"/>
+<msg timestamp="20231125 21:47:08.868" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20231125 21:47:04.867" endtime="20231125 21:47:08.868"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>xpath://h4[contains(text(),'Accepted usernames are:')]</arg>
 <arg>Accepted usernames are:</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20231111 16:25:16.436" endtime="20231111 16:25:16.436"/>
+<status status="PASS" starttime="20231125 21:47:08.869" endtime="20231125 21:47:08.870"/>
 </kw>
-<status status="PASS" starttime="20231111 16:24:57.979" endtime="20231111 16:25:16.436"/>
+<status status="PASS" starttime="20231125 21:46:56.440" endtime="20231125 21:47:08.871"/>
 </kw>
 <kw name="ClosingBrowser">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20231111 16:25:16.436" endtime="20231111 16:25:18.724"/>
+<status status="PASS" starttime="20231125 21:47:08.872" endtime="20231125 21:47:11.074"/>
 </kw>
-<status status="PASS" starttime="20231111 16:25:16.436" endtime="20231111 16:25:18.724"/>
+<status status="PASS" starttime="20231125 21:47:08.871" endtime="20231125 21:47:11.074"/>
 </kw>
-<status status="PASS" starttime="20231111 16:24:42.255" endtime="20231111 16:25:18.724"/>
+<status status="PASS" starttime="20231125 21:46:43.836" endtime="20231125 21:47:11.074"/>
 </test>
-<status status="PASS" starttime="20231111 16:24:41.849" endtime="20231111 16:25:18.724"/>
+<status status="PASS" starttime="20231125 21:46:43.530" endtime="20231125 21:47:11.074"/>
 </suite>
 <statistics>
 <total>
